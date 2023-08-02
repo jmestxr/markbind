@@ -199,7 +199,8 @@
     "filterTags",
     "googleAnalytics",
     "mathDelimiters",
-    "web3Form"
+    "web3Form",
+    "darkMode"
   ],
   "pluginsContext": {
     "testMarkbindPlugin": {
@@ -221,6 +222,8 @@
     },
     "web3Form": {
       "accessKey": ""
+    },
+    "darkMode": {
     }
   }
 }

@@ -44,10 +44,11 @@
         <navbar type="dark" default-highlight-on="sibling-or-child">
           <template #brand><a href="/" title="Home" class="navbar-brand">MarkBind Test Site</a></template>
           <li><a class="nav-link" href="/test_site/bugs/index.html">Open Bugs</a></li>
+          <button type="button" id="dark-mode-toggle-button">Toggle light/dark mode</button>
         </navbar>
         <div class="bg-info display-4 text-center text-white">
           <br>
-          Test Jumbotron<br>
+          Testing<br>
           <br>
         </div>
       </header>
@@ -287,6 +288,14 @@
                 submitButton.innerText = submitButtonText;
             })
         }
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+      const darkmode = new Darkmode();
+      function toggleDarkMode() {
+        darkmode.toggle();
+      }
+      document.getElementById("dark-mode-toggle-button").onclick = toggleDarkMode;
     </script>
 
 </html>

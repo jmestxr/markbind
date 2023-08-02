@@ -5,7 +5,7 @@
   </navbar>
   <div class="bg-info display-4 text-center text-white">
       <br/>
-      Test Jumbotron<br/>
+      Testing<br/>
       <br/>
    </div>
 </header>
