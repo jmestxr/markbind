@@ -5,7 +5,7 @@ with(this){return _c('div',{attrs:{"id":"app"}},[_c('div',[_c('div',[_c('header'
 };
     var pageVueStaticRenderFns = [function anonymous(
 ) {
-with(this){return _c('div',{staticClass:"bg-info display-4 text-center text-white"},[_c('br'),_v("\n      Test Jumbotron"),_c('br'),_v(" "),_c('br')])}
+with(this){return _c('div',{staticClass:"bg-info display-4 text-center text-white"},[_c('br'),_v("\n      Testing"),_c('br'),_v(" "),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Relative Link Test")]),_v(" This is a relative Intra-Site link in a layout (see "),_c('a',{attrs:{"href":"/test_site/index.html#heading-with-hidden-keyword"}},[_v("link")]),_v(")")])}

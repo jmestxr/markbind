@@ -47,7 +47,7 @@
         </navbar>
         <div class="bg-info display-4 text-center text-white">
           <br>
-          Test Jumbotron<br>
+          Testing<br>
           <br>
         </div>
       </header>
@@ -329,5 +329,18 @@
             })
         }
     </script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+    const style = document.createElement('style');
+    style.innerHTML = ".darkmode-layer, .darkmode-toggle { z-index: 500; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+<script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
 
 </html>

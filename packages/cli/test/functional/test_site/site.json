@@ -169,6 +169,10 @@
     {
       "src": "testWeb3FormPlugin.md",
       "title": "web 3 forms"
+    },
+    {
+      "src": "playground/playground.md",
+      "title": "Playground!"
     }
   ],
   "pagesExclude": ["**/*-fragment.md"],
@@ -195,7 +199,8 @@
     "filterTags",
     "googleAnalytics",
     "mathDelimiters",
-    "web3Form"
+    "web3Form",
+    "darkMode"
   ],
   "pluginsContext": {
     "testMarkbindPlugin": {
@@ -217,6 +222,8 @@
     },
     "web3Form": {
       "accessKey": ""
+    },
+    "darkMode": {
     }
   }
 }
